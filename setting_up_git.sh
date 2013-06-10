@@ -2,7 +2,7 @@
 set -e
 
 echo "Setting up your local git repository"
-echo "Enter the name of the repository you want to clone, i.e. (AppStore, or Famigo-Sandbox):"
+echo "Enter the name of the repository you want to clone, i.e. (AppStore, Famigo-Sandbox, iOS-Sandbox):"
 read REPO
 if [ -z "$REPO" ]; then 
 	echo "You must provide a repository!"
