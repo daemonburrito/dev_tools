@@ -89,10 +89,11 @@ git config user.email "$EMAIL"
 git config user.name "$NAME"
 
 
+touch ~/.bashrc
 grep "source ~/.famigo_aliases" ~/.bashrc
 ret=$?
 
-if [ ret -ne 0 ] ; then
+if [ $ret -ne 0 ] ; then
   echo "Adding import statement to your bashrc"
   echo "source ~/.famigo_aliases" >> ~/.bashrc
 fi
@@ -113,6 +114,6 @@ BRANCH=`git branch | grep \* | awk '{print $2}'`
 git push fork $BRANCH
 }
 EOF
-fi
+
 
 
