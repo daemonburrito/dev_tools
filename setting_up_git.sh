@@ -78,8 +78,8 @@ git config alias.cb "checkout -b"
 git config alias.aa "add -A"
 git config alias.cm "commit -m"
 git config alias.ca "commit -a -m"
-git config alias.m "co master"
-
+git config alias.m "co master"s
+git config alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
 git config color.ui true
 
