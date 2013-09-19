@@ -98,7 +98,7 @@ if [ $ret -ne 0 ] ; then
   echo "source ~/.famigo_aliases" >> ~/.bashrc
 fi
 
-if [ -a ~/.famigo_aliases]; then
+if [ -a ~/.famigo_aliases ] ; then
 	echo "Found existing .famigo_aliases file. moving it to ~/.famigo_aliases.bak"
 	mv ~/.famigo_aliases ~/.famigo_aliases.bak
 fi
