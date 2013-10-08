@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+u=famigo
+g=famigo
+
+chown -R ${u}:${g} /mnt/famigo/

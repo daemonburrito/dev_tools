@@ -1,0 +1,16 @@
+Source: appstore
+Section: unknown
+Priority: extra
+Maintainer: unknown <devops@famigo.com>
+Build-Depends: debhelper (>= 8.0.0)
+Depends: python (>= 2.7), python (<< 2.8), adduser
+Standards-Version: 3.9.2
+Homepage: N/A
+#Vcs-Git: git://git.debian.org/collab-maint/appstore.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/appstore.git;a=summary
+
+Package: appstore
+Architecture: all
+Depends: ${misc:Depends}
+Description: Famigo appstore virtual environment
+ Installs the famigo appstore virtual environment in /mnt/famigo/envs/AppStore

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+U=famigo
+
+if ! id $U ; then
+	adduser --disabled-passworg --gecos "" --home /mnt/$U $U
+fi
+

@@ -1,0 +1,17 @@
+appstore (0.3-1) precise; urgency=low
+
+  * New version, Jenkins Build:
+
+ -- Alex Siegman <alex@ubuntu>  Mon, 07 Oct 2013 22:26:44 -0700
+
+appstore (0.2-1) precise; urgency=low
+
+  * New version, Jenkins Build:
+
+ -- Alex Siegman <alex@ubuntu>  Mon, 07 Oct 2013 21:49:56 -0700
+
+appstore (0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- unknown <devops@famigo.com>  Fri, 04 Oct 2013 09:46:38 +0000
