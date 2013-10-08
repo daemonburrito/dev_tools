@@ -6,7 +6,7 @@ APPSTORE_REPO_URL=git@github.com:famigo/AppStore.git
 APPSTORE_CO_PATH=AppStore
 BASE_PATH=/mnt/famigo/
 VENV_NAME=venv-appstore
-VENV_PATH=${BASE_PATH}/${VENV_NAME}
+VENV_PATH=${BASE_PATH}/envs/${VENV_NAME}
 VERSION_FILE=version
 
 echo "AppStore venv and code packaging script"
