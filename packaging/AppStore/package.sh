@@ -79,8 +79,8 @@ echo "Setting up packaging environment"
 rm -rf $PACKAGE_DIR && mkdir -p $PACKAGE_DIR
 pushd $PACKAGE_DIR > /dev/null
 rsync -avh --delete ../debian .
-rsync -avh --delete ${VENV_PATH} .
-rsync -avh --delete ../${APPSTORE_CO_PATH} .
+rsync -avh --delete --exclude '*.pyc' ${VENV_PATH} .
+rsync -avh --delete --exclude '*.pyc' ../${APPSTORE_CO_PATH} .
 debuild -us -uc
 popd > /dev/null
 
