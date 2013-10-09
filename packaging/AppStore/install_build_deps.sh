@@ -7,6 +7,7 @@ fi
 
 echo "Installing ubuntu system packages"
 apt-get update
+# Note, might need libxml2-dev, not libxml3-dev
 apt-get install -y swig libxml3-dev libxslt1-dev build-essential libjpeg8 libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev python-pip devscripts
 apt-get build-dep -y python-numpy
 
